@@ -1,0 +1,22 @@
+.header {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	display: grid;
+  grid-template-columns: 1fr 5fr;
+  align-items: center;
+	background-color: #25282f;
+  color: white;
+	padding: .5rem;
+	height: 50px;
+
+	.logo {
+		display: flex;
+		align-items: center;
+
+		> svg:first-of-type {
+			margin-right: .5rem;
+		}
+	}
+}

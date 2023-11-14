@@ -1,0 +1,13 @@
+{%- extends 'layouts/base.njk' -%}
+
+{%- block main -%}
+
+<canvas id="chart-combined"></canvas>
+
+<div>
+  {%- for teamMember in teamMembers -%}
+    <canvas id="chart-{{teamMember.id}}"></canvas>
+  {%- endfor -%}
+</div>
+
+{%- endblock -%}

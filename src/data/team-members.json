@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "capabilityScores": {
+      "prototyping": 5,
+      "visualDesign": 5,
+      "contentDesign": 5,
+      "interactionDesign": 8,
+      "userResearch": 3
+    }
+  },
+  {
+    "id": 2,
+    "capabilityScores": {
+      "prototyping": 5,
+      "visualDesign": 6,
+      "contentDesign": 4,
+      "interactionDesign": 10,
+      "userResearch": 0
+    }
+  },
+  {
+    "id": 3,
+    "capabilityScores": {
+      "prototyping": 5,
+      "visualDesign": 4,
+      "contentDesign": 3,
+      "interactionDesign": 4,
+      "userResearch": 5
+    }
+  },
+  {
+    "id": 4,
+    "capabilityScores": {
+      "prototyping": 4,
+      "visualDesign": 6,
+      "contentDesign": 3,
+      "interactionDesign": 8,
+      "userResearch": 2
+    }
+  },
+  {
+    "id": 5,
+    "capabilityScores": {
+      "prototyping": 5,
+      "visualDesign": 5,
+      "contentDesign": 2,
+      "interactionDesign": 5,
+      "userResearch": 6
+    }
+  },
+  {
+    "id": 6,
+    "capabilityScores": {
+      "prototyping": 4,
+      "visualDesign": 5,
+      "contentDesign": 2,
+      "interactionDesign": 2,
+      "userResearch": 2
+    }
+  },
+  {
+    "id": 7,
+    "capabilityScores": {
+      "prototyping": 5,
+      "visualDesign": 5,
+      "contentDesign": 1,
+      "interactionDesign": 6,
+      "userResearch": 4
+    }
+  },
+  {
+    "id": 8,
+    "capabilityScores": {
+      "prototyping": 5,
+      "visualDesign": 4,
+      "contentDesign": 2,
+      "interactionDesign": 5,
+      "userResearch": 4
+    }
+  },
+  {
+    "id": 9,
+    "capabilityScores": {
+      "prototyping": 5,
+      "visualDesign": 5,
+      "contentDesign": 6,
+      "interactionDesign": 10,
+      "userResearch": 6
+    }
+  },
+  {
+    "id": 10,
+    "capabilityScores": {
+      "prototyping": 2,
+      "visualDesign": 10,
+      "contentDesign": 3,
+      "interactionDesign": 5,
+      "userResearch": 4
+    }
+  }
+]
