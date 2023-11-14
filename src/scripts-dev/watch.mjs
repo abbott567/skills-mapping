@@ -9,7 +9,10 @@ async function watchSass () {
 }
 
 async function watchClientJS () {
-  watch('src/scripts-browser', { recursive: true }, runWebpack)
+  watch('src/scripts-browser', { recursive: true }, async () => {
+    await runWebpack()
+    buildHTML()
+  })
 }
 
 async function watchCapabilities () {
