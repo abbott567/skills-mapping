@@ -38,16 +38,6 @@ export default {
       },
       tooltip: {
         enabled: false
-      },
-      title: {
-        display: true,
-        text: teamMemberLabel,
-        padding: {
-          top: '100'
-        },
-        font: {
-          size: '16'
-        }
       }
     }
   }

@@ -2,10 +2,17 @@
 
 {%- block main -%}
 
+<h1>Skills</h1>
+
+<h2 class="margin-bottom-!-0">Team</h2>
 <canvas id="chart-combined"></canvas>
 
 <div>
   {%- for teamMember in teamMembers -%}
+    <h2 class="margin-bottom-!-0">
+      No: {{teamMember.id}}
+    </h2>
+    
     <canvas id="chart-{{teamMember.id}}"></canvas>
   {%- endfor -%}
 </div>
