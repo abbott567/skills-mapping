@@ -4,8 +4,17 @@ import { runWebpack } from '../scripts-build/webpack.mjs'
 import { cleanTeamMembers } from '../scripts-build/clean.mjs'
 import { buildHTML } from '../scripts-build/html.mjs'
 
+async function watchViews () {
+  watch('src/views', { recursive: true }, async () => {
+    buildHTML()
+  })
+}
+
 async function watchSass () {
-  watch('src/sass', { recursive: true }, compileSass)
+  watch('src/sass', { recursive: true }, async () => {
+    await compileSass()
+    buildHTML()
+  })
 }
 
 async function watchClientJS () {
@@ -36,6 +45,7 @@ function all () {
   watchClientJS()
   watchCapabilities()
   watchTeamMembers()
+  watchViews()
 }
 
 export default { all }
